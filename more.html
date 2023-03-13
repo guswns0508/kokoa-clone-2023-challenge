@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>더보기</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:05</span>
+      </div>
+      <div class="status-bar__column">
+        <span>94%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-sharp fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">더보기</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-la"></i></span>
+        <span><i class="fa-solid fa-music fa-la"></i></span>
+        <span
+          ><a href="setting.html"><i class="fa-solid fa-gear fa-la gear"></i></a
+        ></span>
+        <span class="search__red-dot"></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshots/chloe.png"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">클로이</h4>
+            <h6 class="user-component__subtitle">
+              010-XXXX-XXXX
+              <h8 class="user-component__subtitle__red">!</h8>
+            </h6>
+          </div>
+        </div>
+        <i class="fa-regular fa-envelope fa-3x"></i>
+      </div>
+
+      <div class="more-screen">
+        <div class="more-screen__imo">
+          <div>
+            <div class="more-screen__imo__box">
+              <i class="fa-regular fa-calendar-check fa-2x"></i>
+              <span class="more-screen__imo__box__text">달력</span>
+            </div>
+            <div class="more-screen__imo__box">
+              <i class="fa-solid fa-sack-dollar fa-2x"></i>
+              <span class="more-screen__imo__box__text">계좌</span>
+            </div>
+          </div>
+          <div>
+            <div class="more-screen__imo__box">
+              <i class="fa-solid fa-inbox fa-2x"></i>
+              <span class="more-screen__imo__box__text">톡서랍</span>
+            </div>
+            <div class="more-screen__imo__box">
+              <i class="fa-regular fa-comments fa-2x"></i>
+              <span class="more-screen__imo__box__text">오픈채팅</span>
+            </div>
+          </div>
+          <div class="more-screen__imo__box">
+            <i class="fa-regular fa-face-smile fa-2x"></i>
+            <span class="more-screen__imo__box__text">이모티콘</span>
+          </div>
+          <div class="more-screen__imo__box">
+            <i class="fa-solid fa-brush fa-2x"></i>
+            <span class="more-screen__imo__box__text">테마</span>
+          </div>
+        </div>
+
+        <div class="more-screen__title">제안</div>
+
+        <div class="more-screen__sug">
+          <div class="more-screen__sug__imo">
+            <img
+              class="more-screen__sug__imo__border-radius"
+              src="screenshots/puzzle.png"
+              width="60"
+            />
+            <span class="more-screen__sug__text"
+              >위 베어 베어스<br />더 퍼즐</span
+            >
+          </div>
+          <div class="more-screen__sug__imo">
+            <a
+              href="https://nomadcoders.co/?utm_source=naver&utm_medium=search&utm_campaign=brand_keyword"
+              target="black"
+            >
+              <img
+                class="more-screen__sug__imo__border-radius"
+                src="screenshots/nomardcoders.png"
+                width="60"
+              />
+            </a>
+            <span class="more-screen__sug__text">노마드 코더</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">2</span>
+            <i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__red-dot"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="no-mobile">
+      <div class="no-mobile__gif">
+        <i class="fa-solid fa-arrow-right"></i>
+        <img src="screenshots/no-mobile.gif" width="300" />
+        <i class="fa-solid fa-arrow-left"></i>
+      </div>
+      <div>화면 크기를 줄여주세요</div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8a88f91bdf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
