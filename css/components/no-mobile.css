@@ -1,0 +1,43 @@
+.no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: #e6fffb;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+@media screen and (max-width: 550px) {
+  .no-mobile {
+    display: none;
+  }
+}
+.no-mobile img {
+  padding-bottom: 50px;
+}
+.no-mobile__gif {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@keyframes rightAnimation {
+  100% {
+    transform: translateX(15px);
+  }
+}
+.fa-arrow-right {
+  animation: rightAnimation 1s linear infinite;
+}
+@keyframes leftAnimation {
+  100% {
+    transform: translateX(-15px);
+  }
+}
+.fa-arrow-left {
+  animation: leftAnimation 1s linear infinite;
+}
