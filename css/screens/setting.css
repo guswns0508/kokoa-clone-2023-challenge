@@ -1,0 +1,28 @@
+.setting {
+  margin-top: 80px;
+}
+.setting-screen {
+  padding: 5px 30px 5px 30px;
+  font-size: 19px;
+}
+.setting-lists {
+  padding: 25px 0px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+.setting-lists:last-child {
+  border-bottom: none;
+}
+.setting-lists i {
+  width: 20px;
+  padding-right: 15px;
+  opacity: 0.9;
+}
+.setting-lists__column:last-child {
+  opacity: 0.7;
+}
+.setting-line {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
