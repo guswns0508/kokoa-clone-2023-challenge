@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>베어스톡</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:05</span>
+      </div>
+      <div class="status-bar__column">
+        <span>94%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-sharp fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">베어스톡에 오신 것을 환영합니다.</h1>
+      <p class="welcome-header__text">
+        베어스톡 계정이 있는 경우 이메일 또는 전화 번호로 로그인합니다.
+      </p>
+      <p class="welcome-header__text">
+        없는 경우에는 그리즐리에게 도움을 요청하십시오.
+      </p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        required
+        type="email"
+        placeholder="이메일 또는 전화번호"
+      />
+      <input
+        name="password"
+        required
+        type="password"
+        placeholder="비밀번호"
+        minlength="6"
+      />
+      <input type="submit" value="로그인" />
+      <a href="#" target="black">베어스톡 계정 또는 암호 찾기</a>
+    </form>
+    <div class="login-image">
+      <img src="screenshots/login-bear.png" width="150" />
+    </div>
+    <div class="no-mobile">
+      <div class="no-mobile__gif">
+        <i class="fa-solid fa-arrow-right"></i>
+        <img src="screenshots/no-mobile.gif" width="300" />
+        <i class="fa-solid fa-arrow-left"></i>
+      </div>
+      <div>화면 크기를 줄여주세요</div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8a88f91bdf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
