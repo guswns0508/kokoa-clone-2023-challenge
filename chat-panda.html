@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅방</title>
+  </head>
+  <body class="chat-screen">
+    <div class="status-bar chat-status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:05</span>
+      </div>
+      <div class="status-bar__column">
+        <span>94%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-sharp fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header chat-alt-header">
+      <div class="alt-header__column">
+        <a class="alt-header__back" onclick="history.go(-1)">
+          <i class="fa-solid fa-chevron-left"></i>
+        </a>
+      </div>
+      <div>
+        <h1 class="alt-header__title message-title">판다</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bars alt-header__column__list"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">금요일, 3월 10일, 2023년</div>
+
+      <div class="message-row">
+        <img src="screenshots/panda.png" />
+        <div class="message-row__content">
+          <span class="message__author">판다</span>
+          <div class="message__info">
+            <span class="message__bubble">클로이! 나 고민이 있어</span>
+            <span class="message__time">20:35</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-send">
+        <div class="message__info">
+          <span class="message__time">20:38</span>
+          <span class="message__bubble__me">무슨 고민인데?</span>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="screenshots/panda.png" />
+        <div class="message-row__content">
+          <span class="message__author">판다</span>
+          <div class="message__info">
+            <span class="message__bubble">사람들은 내가 귀엽다고 하는데</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row__under">
+        <img src="screenshots/hidden-img.png" />
+        <div class="message__info">
+          <span class="message__bubble"
+            >나는 귀여운 판다보다 멋있는 판다가 되고 싶어</span
+          >
+        </div>
+      </div>
+
+      <div class="message-row message-row__under">
+        <img src="screenshots/hidden-img.png" />
+        <div class="message__info">
+          <span class="message__bubble">어떻게 하면 좋을까?</span>
+          <span class="message__time">20:39</span>
+        </div>
+      </div>
+
+      <div class="message-row message-send">
+        <span class="message__bubble__me">사람들은 판다가 부끄러울까봐</span>
+        <div class="message__info">
+          <div class="message__column">
+            <span class="message__time">20:40</span>
+          </div>
+          <span class="message__bubble__me">말을 못하는거야</span>
+        </div>
+      </div>
+
+      <div class="message-row message-send">
+        <div class="message__info">
+          <div class="message__column">
+            <span class="message__time">20:41</span>
+          </div>
+          <span class="message__bubble__me"
+            >나는 판다가 엄청 멋지다고 생각해!</span
+          >
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="screenshots/panda.png" />
+        <div class="message-row__content">
+          <span class="message__author">판다</span>
+          <div class="message__info">
+            <span class="message__bubble">고마워 클로이!</span>
+            <span class="message__time">20:42</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메세지를 입력하세요..." />
+        <i class="fa-regular fa-face-smile fa-2x"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div class="no-mobile">
+      <div class="no-mobile__gif">
+        <i class="fa-solid fa-arrow-right"></i>
+        <img src="screenshots/no-mobile.gif" width="300" />
+        <i class="fa-solid fa-arrow-left"></i>
+      </div>
+      <div>화면 크기를 줄여주세요</div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8a88f91bdf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
