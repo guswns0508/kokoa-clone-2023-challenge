@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>검색</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:05</span>
+      </div>
+      <div class="status-bar__column">
+        <span>94%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-sharp fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">검색</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-la"></i></span>
+        <span
+          ><a href="setting.html"
+            ><i class="fa-solid fa-gear fa-la gear"></i> </a
+        ></span>
+        <span class="search__red-dot"></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="search-screen">
+        <div class="search-screen__img">
+          <img src="screenshots/qr code.png" width="35px;" />
+          <span class="search-screen__img__text">QR 코드</span>
+        </div>
+        <div class="search-screen__img">
+          <img src="screenshots/address.png" width="35px;" />
+          <span class="search-screen__img__text">연락처 추가</span>
+        </div>
+        <div class="search-screen__img">
+          <img src="screenshots/id.png" width="35px;" />
+          <span class="search-screen__img__text">ID 추가</span>
+        </div>
+        <div class="search-screen__img">
+          <img src="screenshots/invite.png" width="35px" />
+          <span class="search-screen__img__text">초대</span>
+        </div>
+      </div>
+
+      <div class="search-recommend">
+        <span class="search-recommend__text">추천 친구목록</span>
+        <span class="search-recommend__text">추천할 친구가 없습니다.</span>
+      </div>
+
+      <div class="search-openchat__header">
+        <span class="search-openchat__header__text">오픈 채팅</span>
+        <span class="search-openchat__header__text"
+          >오픈 채팅 홈으로
+          <i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </div>
+
+      <div class="search-openchat">
+        <div class="search-openchat__name">
+          <div class="search-openchat__name__text">
+            <span class="search-openchat__name__tag">#베어스 팬클럽</span>
+            <span class="search-openchat__name__tag"
+              >#곰 삼 형제 #그리즐리 #판다 #아이스베어</span
+            >
+          </div>
+          <span class="search-openchat__name__avatar">
+            <img src="screenshots/chloe.png" width="20" />
+            <span class="search-openchat__name__member">32,504 멤버</span>
+            <span class="search-openchat__name__active">활동중</span>
+          </span>
+        </div>
+        <div class="search-openchat__avatar">
+          <span class="search-openchat__avatar__heart"
+            ><i class="fa-solid fa-heart fa-sm"></i> 9,999+</span
+          >
+          <img
+            src="screenshots/bears.png"
+            class="search-openchat__avatar__img"
+            width="100"
+          />
+        </div>
+      </div>
+      <div class="search-openchat">
+        <div class="search-openchat__name">
+          <div class="search-openchat__name__text">
+            <span class="search-openchat__name__tag">#놈놈 팬클럽</span>
+            <span class="search-openchat__name__tag"
+              >#놈놈 #코알라 #셀럽 #스타</span
+            >
+          </div>
+
+          <span class="search-openchat__name__avatar">
+            <img src="screenshots/farmer.png" width="20" />
+            <span class="search-openchat__name__member">3,384 멤버</span>
+            <span class="search-openchat__name__active">활동중</span>
+          </span>
+        </div>
+        <div class="search-openchat__avatar">
+          <span class="search-openchat__avatar__heart"
+            ><i class="fa-solid fa-heart fa-sm"></i> 5,204</span
+          >
+          <img
+            src="screenshots/nomnom.png"
+            class="search-openchat__avatar__img"
+            width="100"
+          />
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <i class="fa-regular fa-comment fa-2x"></i
+            ><span class="nav__notification">2</span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><span class="nav__red-dot"></span
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="no-mobile">
+      <div class="no-mobile__gif">
+        <i class="fa-solid fa-arrow-right"></i>
+        <img src="screenshots/no-mobile.gif" width="300" />
+        <i class="fa-solid fa-arrow-left"></i>
+      </div>
+      <div>화면 크기를 줄여주세요</div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8a88f91bdf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
