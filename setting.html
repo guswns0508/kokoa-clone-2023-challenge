@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>옵션</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:05</span>
+      </div>
+      <div class="status-bar__column">
+        <span>94%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-sharp fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a onclick="history.go(-1)">
+          <i class="fa-solid fa-chevron-left"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">옵션</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </header>
+
+    <main class="setting">
+      <div class="setting-screen">
+        <ul class="setting-list">
+          <li class="setting-lists">
+            <div class="setting-lists__column">
+              <i class="fa-solid fa-bullhorn"></i><span>공지사항</span>
+            </div>
+            <div class="setting-lists__column"></div>
+          </li>
+          <li class="setting-lists">
+            <div class="setting-lists__column">
+              <i class="fa-solid fa-flask"></i><span>베어스 연구소</span>
+            </div>
+            <div class="setting-lists__column"></div>
+          </li>
+          <li class="setting-lists">
+            <div class="setting-lists__column">
+              <i class="fa-solid fa-circle-info"></i><span>버전</span>
+            </div>
+            <div class="setting-lists__column">최근 버전</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="setting-line"></div>
+
+      <div class="setting-screen">
+        <ul class="setting-list">
+          <li class="setting-lists">
+            <div class="setting-lists__column">
+              <i class="fa-solid fa-lock"></i><span>보안</span>
+            </div>
+            <div class="setting-lists__column"></div>
+          </li>
+          <li class="setting-lists">
+            <div class="setting-lists__column">
+              <i class="fa-solid fa-bell"></i><span>알림</span>
+            </div>
+            <div class="setting-lists__column"></div>
+          </li>
+          <li class="setting-lists">
+            <div class="setting-lists__column">
+              <i class="fa-regular fa-user"></i><span>친구</span>
+            </div>
+            <div class="setting-lists__column"></div>
+          </li>
+          <li class="setting-lists">
+            <div class="setting-lists__column">
+              <i class="fa-regular fa-comment"></i><span>채팅</span>
+            </div>
+            <div class="setting-lists__column"></div>
+          </li>
+          <li class="setting-lists">
+            <div class="setting-lists__column">
+              <i class="fa-solid fa-display"></i><span>화면</span>
+            </div>
+            <div class="setting-lists__column"></div>
+          </li>
+          <li class="setting-lists">
+            <div class="setting-lists__column">
+              <i class="fa-solid fa-brush"></i><span>테마</span>
+            </div>
+            <div class="setting-lists__column">기본 테마</div>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <i class="fa-regular fa-comment fa-2x"></i
+            ><span class="nav__notification">3</span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><span class="nav__red-dot"></span
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="no-mobile">
+      <div class="no-mobile__gif">
+        <i class="fa-solid fa-arrow-right"></i>
+        <img src="screenshots/no-mobile.gif" width="300" />
+        <i class="fa-solid fa-arrow-left"></i>
+      </div>
+      <div>화면 크기를 줄여주세요</div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8a88f91bdf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
