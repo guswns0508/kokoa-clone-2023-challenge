@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅방</title>
+  </head>
+  <body class="chat-screen">
+    <div class="status-bar chat-status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:05</span>
+      </div>
+      <div class="status-bar__column">
+        <span>94%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-sharp fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header chat-alt-header">
+      <div class="alt-header__column">
+        <a class="alt-header__back" onclick="history.go(-1)">
+          <i class="fa-solid fa-chevron-left"></i>
+        </a>
+      </div>
+      <div>
+        <h1 class="alt-header__title message-title">그리즐리</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bars alt-header__column__list"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">목요일, 3월 2일, 2023년</div>
+
+      <div class="message-row">
+        <img src="screenshots/grizzly.png" />
+        <div class="message-row__content">
+          <span class="message__author">그리즐리</span>
+          <div class="message__info">
+            <span class="message__bubble">클로이 요즘 공부는 잘 돼?</span>
+            <span class="message__time">12:18</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-send">
+        <span class="message__bubble__me"
+          >그리즐리가 만들어준 책상에서 공부하니까</span
+        >
+        <div class="message__info">
+          <div class="message__column">
+            <span class="message__time">12:20</span>
+          </div>
+          <span class="message__bubble__me"
+            >집중이 더 잘되는 것 같아! 고마워~</span
+          >
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="screenshots/grizzly.png" />
+        <div class="message-row__content">
+          <span class="message__author">그리즐리</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >다음에 더 멋진 물건을 만들어 줄게!</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row__under">
+        <img src="screenshots/hidden-img.png" />
+        <div class="message__info">
+          <span class="message__bubble">공부 열심히 해~</span>
+          <span class="message__time">12:23</span>
+        </div>
+      </div>
+
+      <div class="chat__timestamp">일요일, 3월 12일, 2023년</div>
+      <div class="message-row message-send">
+        <div class="message__info">
+          <div class="message__column">
+            <span class="message__time">14:59</span>
+          </div>
+          <span class="message__bubble__me"
+            >그리즐리~ 아이스베어가 톡을 안보네 ㅠㅠ</span
+          >
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="screenshots/grizzly.png" />
+        <div class="message-row__content">
+          <span class="message__author">그리즐리</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >원래 아이스베어가 폰을 잘 안보잖아..ㅎ</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row__under">
+        <img src="screenshots/hidden-img.png" />
+        <div class="message__info">
+          <span class="message__bubble"
+            >이따 내가 데려갈테니까 걱정하지마~</span
+          >
+          <span class="message__time">15:04</span>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메세지를 입력하세요..." />
+        <i class="fa-regular fa-face-smile fa-2x"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div class="no-mobile">
+      <div class="no-mobile__gif">
+        <i class="fa-solid fa-arrow-right"></i>
+        <img src="screenshots/no-mobile.gif" width="300" />
+        <i class="fa-solid fa-arrow-left"></i>
+      </div>
+      <div>화면 크기를 줄여주세요</div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8a88f91bdf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
