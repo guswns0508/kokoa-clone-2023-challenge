@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅방</title>
+  </head>
+  <body class="chat-screen">
+    <div class="status-bar chat-status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:05</span>
+      </div>
+      <div class="status-bar__column">
+        <span>94%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-sharp fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header chat-alt-header">
+      <div class="alt-header__column">
+        <a class="alt-header__back" onclick="history.go(-1)">
+          <i class="fa-solid fa-chevron-left"></i>
+        </a>
+      </div>
+      <div>
+        <h1 class="alt-header__title message-title">아이스베어</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bars alt-header__column__list"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">화요일, 2월 28일, 2023년</div>
+
+      <div class="message-row message-send">
+        <span class="message__bubble__me">아이스베어! 나 폰 바꿨어</span>
+        <div class="message__info">
+          <div class="message__column">
+            <span class="message__time__yellow">1</span>
+            <span class="message__time">13:52</span>
+          </div>
+          <span class="message__bubble__me">부럽지~</span>
+        </div>
+      </div>
+      <div class="chat__timestamp">일요일, 3월 12일, 2023년</div>
+
+      <div class="message-row message-send">
+        <span class="message__bubble__me">
+          오늘 우리 집에서 파티하는거 잊지않았지?</span
+        >
+        <div class="message__info">
+          <div class="message__column">
+            <span class="message__time__yellow">1</span>
+            <span class="message__time">11:47</span>
+          </div>
+          <span class="message__bubble__me">5시 까지 오면 돼~</span>
+        </div>
+      </div>
+      <div class="message-row message-send">
+        <div class="message__info">
+          <div class="message__column">
+            <span class="message__time__yellow">1</span>
+            <span class="message__time">14:33</span>
+          </div>
+          <span class="message__bubble__me">답장 좀 해줄래? ㅠㅠ</span>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메세지를 입력하세요..." />
+        <i class="fa-regular fa-face-smile fa-2x"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div class="no-mobile">
+      <div class="no-mobile__gif">
+        <i class="fa-solid fa-arrow-right"></i>
+        <img src="screenshots/no-mobile.gif" width="300" />
+        <i class="fa-solid fa-arrow-left"></i>
+      </div>
+      <div>화면 크기를 줄여주세요</div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8a88f91bdf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
